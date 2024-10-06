@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="hero vh-100 position-relative">
+      <div
+        class="header-text d-flex justify-content-center align-items-center h-100 flex-column content"
+      >
+        <h1 class="text-white z-3 text_shadows">ُEgyption Party</h1>
+        <p class="text-white z-2">Let's have Fun</p>
+      </div>
+      <div class="layer position-absolute top-0 start-0 end-0 bottom-0">
+        <div class="sideBar bg-black position-fixed top-0 bottom-0 ">
+          <i
+            class="fa-solid fa-xmark position-absolute end-0 pe-2 pt-2 fs-4 close"
+            style="color: #c20000"
+          ></i>
+          <ul>
+            <li class="pt-5">Home</li>
+            <li>Duration</li>
+            <li>Detailas</li>
+            <li>Duration</li>
+          </ul>
+          <div class="toggle position-absolute">
+            <i class="fa-solid fa-bars fa-xl ps-1" style="color: #ffffff">
+              <span>Open</span>
+            </i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="docum w-50 text-center mx-auto my-5" id="doc">
+          <h3>singer one</h3>
+          <div class="doc-info block">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </div>
+          <h3>singer two</h3>
+          <div class="doc-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et a dicta
+            esse accusamus iusto sed repellat consectetur, commodi amet voluptas
+            ducimus! Numquam quia nam doloribus perferendis quis sunt optio,
+            obcaecati animi est quo? Fuga aspernatur dolores nulla voluptatem.
+            Beatae reprehenderit fugit unde aut nihil libero cum iste temporibus
+            fugiat perspiciatis.
+          </div>
+          <h3>singer three</h3>
+          <div class="doc-info">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+            deserunt vero veniam maxime ullam voluptatem suscipit nesciunt qui
+            magnam perspiciatis neque, totam tempora voluptatibus nobis error.
+            Assumenda fuga ea nesciunt?
+          </div>
+          <h3>singer four</h3>
+          <div class="doc-info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            quidem sequi nisi exercitationem neque velit officia nulla
+            temporibus vel, hic qui iusto animi quam voluptatibus, dolores,
+            dolore voluptas blanditiis. Cumque qui aspernatur esse ducimus alias
+            modi nisi. Cupiditate autem, dignissimos cumque earum unde fugiat
+            culpa consequatur est placeat reiciendis dolorum incidunt quas, non,
+            iure quidem consequuntur maxime atque eaque. Iste.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="countdown position-relative">
+      <div class="layer2 position-absolute top-0 start-0 end-0 bottom-0"></div>
+      <div class="container d-flex">
+        <div id="countdownHour"></div>
+        <div id="countdownDay"></div>
+        <div id="countdownMin"></div>
+        <div id="countdownSec"></div>
+      </div>
+    </section>
+    <section class="footer mb-5">
+      <div class="container">
+<div class="row">
+  <div class="col-6">
+    <h2>
+      join us
+    </h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+    </p>
+    <h3>contact info</h3>
+
+    <p>Why you should hire me writeup Lorem ipsum dolor sit amet, 
+      consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+       Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p>
+       <div class="contac-info pt-2">
+        <ul >
+<li > <i class="fa-solid fa-location-dot px-2 pb-3"></i>New Street 22545, Nexa Road, New York City, USA</li>
+<li><i class="fa-solid fa-envelope px-2 pb-3"></i>  hello@uigrid.com</li>
+<li><i class="fa-solid fa-phone px-2 pb-3"></i>001-000-000-000</li>
+        </ul>
+        <ul class="d-flex icons">
+          <i class="fa-brands fa-facebook fs-6 mx-3 p-3"></i>
+          <i class="fa-brands fa-whatsapp fs-6 mx-3 p-3"></i>
+          <i class="fa-brands fa-instagram fs-6 mx-3 p-3"></i>
+        </ul>
+       </div>
+  </div>
+  <div class="col-6">
+    <form>   
+    <input class="form-control input-lg m-2" type="text" placeholder="Enter Name">
+    <input class="form-control input-lg m-2" type="email" placeholder="Enter Email">
+    <textarea class="form-control input-lg m-2" placeholder="Enter Message " maxlength="100"></textarea>
+    <span id="reminig" class="text-danger">100</span> Characyer Reamining
+    <button class="btn d-block bg-danger text-white mt-3">Send Message</button>
+</form>
+</div>
+</div>
+      </div>
+    </section>
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,189 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.hero{
+    background-image: url(../pics/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero .layer{
+    background-color: hsla(0, 100%, 25%, 0.508);
+}
+ .layer2{
+    background-color: hsla(0, 100%, 25%, 0.508);
+}
+.layer h1 {
+    font-size: 60px;
+}
+.sideBar{
+    width: 20%;
+    transition: 0.5s;
+ right: 100%;
+}
+.layer ul li {
+    text-decoration: none;
+       padding-block: 20px;
+
+}
+.layer ul{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+
+}
+.toggle span {
+    letter-spacing: 4px;
+    padding-left: 30px;
+}
+.toggle{
+    left:100%;
+
+}
+:root {
+    --color-primary: #f6aca2;
+    --color-secondary: #c93c2a;
+    --color-tertiary: #e84141;
+    --color-quaternary: #bc0909;
+    --color-quinary: #740d00;
+    
+  
+  }
+  
+
+
+  
+  .text_shadows {
+    text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
+      9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+    font-family: bungee, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    color: var(--color-primary);
+    color: transparent;
+    background-color: white;
+    background-clip: text;
+    animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+    letter-spacing: 0.4rem;
+  }
+  
+  @keyframes shadows {
+    0% {
+      text-shadow: none;
+    }
+    10% {
+      text-shadow: 3px 3px 0 var(--color-secondary);
+    }
+    20% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary);
+    }
+    30% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+    }
+    40% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+        12px 12px 0 var(--color-quinary);
+    }
+    50% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+        12px 12px 0 var(--color-quinary);
+    }
+    60% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+        12px 12px 0 var(--color-quinary);
+    }
+    70% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+    }
+    80% {
+      text-shadow: 3px 3px 0 var(--color-secondary),
+        6px 6px 0 var(--color-tertiary);
+    }
+    90% {
+      text-shadow: 3px 3px 0 var(--color-secondary);
+    }
+    100% {
+      text-shadow: none;
+    }
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    40% {
+      transform: translate(-12px, -12px);
+    }
+    50% {
+      transform: translate(-12px, -12px);
+    }
+    60% {
+      transform: translate(-12px, -12px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+  .doc-info{
+    font-size: 13px;
+    padding-bottom: 10px ;
+    background-color: #CCCCCC;
+  }
+  h3{
+    background-color: #E68285;
+    margin: 0;
+    color: white;
+    padding-block: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.607);
+  }
+ .doc-info{
+  display: none;
+ }
+ .block{
+  display: block;
+ }
+ #countdownHour,#countdownDay,#countdownMin,#countdownSec {
+  color: #ffffff;
+  width: 80%;
+  padding: 35px;
+border: 2px solid white;
+border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 10px;
+  z-index: 9999;
+  font-size: 40px;
+ 
+}
+.countdown{
+  background-image: url(../pics/invitation-2508607__340.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.footer{
+  padding-top: 60px;
+}
+.contac-info ul {
+  list-style: none;
+
+}
+
+.icons i {
+border: 1px solid rgb(32, 32, 32);
+padding: 20px;
+color: rgb(32, 32, 32);
+}
+.icons i:hover{
+  background-color: #E68285;
+}
+textarea{
+  resize: vertical;
+  height: 200px;
+}
